@@ -1,4 +1,5 @@
 # QR Tool
+![alt](https://i.imgur.com/5NM3GkR.png)
 #### Данное приложение было написано по [этой](https://vscode.ru/prog-lessons/qr-kod-na-c-sharp.html) инструкции.
 ## Описание
 Приложения для работы с QR кодами под Windows.
