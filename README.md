@@ -1,4 +1,4 @@
-# QR Утилита
+# Утилита QR
 ![alt](https://i.imgur.com/j62flvY.png) ![alt](https://i.imgur.com/KzeLQAk.png) ![alt](https://i.imgur.com/4vt0pPn.png)
 #### Данное приложение было написано по [этой](https://vscode.ru/prog-lessons/qr-kod-na-c-sharp.html) инструкции.
 ## Описание
