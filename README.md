@@ -6,4 +6,4 @@
 * Дополнительно: [Microsoft .NET Framework 4.5](https://www.microsoft.com/ru-ru/download/details.aspx?id=30653)
 #### Для смартфона под управлением Android лучше всего использовать [это](https://yadi.sk/d/nlMXO_fZT4-UTA) приложение
 ## Скриншоты
-![alt](https://i.imgur.com/BMFmEMn.png) ![alt](https://i.imgur.com/PVuRRRC.png) ![alt](https://i.imgur.com/OJNf1sd.png)
+![alt](https://i.imgur.com/CF5x7Ql.png)
