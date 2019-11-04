@@ -26,7 +26,7 @@ namespace qr_code
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.Red500, Primary.Red700, Primary.Red100, Accent.Blue200, TextShade.WHITE);
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.Green500, Primary.Green700, Primary.Green100, Accent.Green200, TextShade.WHITE);
             // 1 - под заголовком, 2 - заголовок, 3 - ?, 4 - элементы выбора
         }
 
@@ -71,7 +71,7 @@ namespace qr_code
                 b_w.Text = "ТЁМНАЯ ТЕМА";
                 var materialSkinManager = MaterialSkinManager.Instance;
                 materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-                materialSkinManager.ColorScheme = new ColorScheme(Primary.Red500, Primary.Red700, Primary.Red100, Accent.Blue200, TextShade.WHITE);
+                materialSkinManager.ColorScheme = new ColorScheme(Primary.Green500, Primary.Green700, Primary.Green100, Accent.Green200, TextShade.WHITE);
             }
         }
 

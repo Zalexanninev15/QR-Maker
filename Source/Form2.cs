@@ -23,7 +23,7 @@ namespace qr_code
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.Red500, Primary.Red700, Primary.Red100, Accent.Blue200, TextShade.WHITE);
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.Green500, Primary.Green700, Primary.Green100, Accent.Green200, TextShade.WHITE);
             // 1 - под заголовком, 2 - заголовок, 3 - ?, 4 - элементы выбора
         }
 
@@ -34,7 +34,7 @@ namespace qr_code
 
         private void MaterialRaisedButton1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/Zalexanninev15/QR-Tool");
+            System.Diagnostics.Process.Start("https://github.com/Zalexanninev15/QR-Maker");
         }
     }
 }
