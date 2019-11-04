@@ -1,4 +1,4 @@
-# Утилита QR 
+# Конструктор QR 
 ## [Скачать последнюю версию](https://github.com/Zalexanninev15/QR-Tool/releases/download/1.1/QR_Tool.zip)
 ## Описание
 Приложение для работы с QR кодами под Windows.
