@@ -1,5 +1,5 @@
 # Конструктор QR 
-## [Скачать последнюю версию](https://github.com/Zalexanninev15/QR-Maker/releases/download/1.2/QR-Maker.zip)
+## [Скачать последнюю версию](https://github.com/Zalexanninev15/QR-Maker/releases/download/1.2.1/App.zip)
 ## Скриншот
 ![alt](https://i.imgur.com/w8zN22o.png)
 ## Описание
