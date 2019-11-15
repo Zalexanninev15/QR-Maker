@@ -11,6 +11,7 @@ using MaterialSkin;
 using MaterialSkin.Animations;
 using MaterialSkin.Controls;
 
+
 namespace qr_code
 {
     public partial class Form2 : MaterialForm
@@ -18,21 +19,16 @@ namespace qr_code
         public Form2()
         {
             InitializeComponent();
-
-            // Дефолтная тема
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
-            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.Green500, Primary.Green700, Primary.Green100, Accent.Green200, TextShade.WHITE);
-            // 1 - под заголовком, 2 - заголовок, 3 - ?, 4 - элементы выбора
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            
+
         }
 
-        private void MaterialRaisedButton1_Click(object sender, EventArgs e)
+        private void materialRaisedButton1_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://github.com/Zalexanninev15/QR-Maker");
         }

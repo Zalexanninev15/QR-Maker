@@ -79,7 +79,6 @@ namespace qr_code
         {
             f = new Form2();
             f.Show();
-            b_w.Checked = false;
         }
 
         private void MaterialRaisedButton2_Click(object sender, EventArgs e)
