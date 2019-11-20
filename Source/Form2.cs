@@ -23,11 +23,6 @@ namespace qr_code
             materialSkinManager.AddFormToManage(this);
         }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void materialRaisedButton1_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://github.com/Zalexanninev15/QR-Maker");

@@ -30,31 +30,6 @@ namespace qr_code
             // 1 - под заголовком, 2 - заголовок, 3 - ?, 4 - элементы выбора
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void PictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void MaterialFlatButton4_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog load = new OpenFileDialog(); //  load будет запрашивать у пользователя место, из которого он хочет загрузить файл.
-            if (load.ShowDialog() == System.Windows.Forms.DialogResult.OK) // //если пользователь нажимает в обозревателе кнопку "Открыть".
-            {
-                pictureBox1.ImageLocation = load.FileName; // в pictureBox'e открывается файл, который был по пути, запрошенном пользователем.
-            }
-        }
-
-        private void MaterialFlatButton5_Click(object sender, EventArgs e)
-        {
-            QRCodeDecoder decoder = new QRCodeDecoder(); // создаём "раскодирование изображения"
-            MessageBox.Show(decoder.Decode(new QRCodeBitmapImage(pictureBox1.Image as Bitmap))); ; //в MessageBox'e программа запишет раскодированное сообщение с изображения, которое предоврительно будет переведено из pictureBox'a в класс Bitmap, чтобы мы смогли с этим изображением работать. 
-        }
-
         private void B_w_CheckedChanged(object sender, EventArgs e)
         {
             if (b_w.Checked)
