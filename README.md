@@ -3,7 +3,7 @@
 ## Скриншот
 ![alt](https://i.imgur.com/w8zN22o.png)
 ## Описание
-Приложение для работы с QR кодами Для Windows
+Программа для работы с QR кодами Для Windows
 ## Системные требования
 * Операционная система: Windows 7/8/8.1/10
 * Дополнительно: [Microsoft .NET Framework 4.5](https://www.microsoft.com/ru-ru/download/details.aspx?id=30653)
