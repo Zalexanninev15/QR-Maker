@@ -1,7 +1,8 @@
 # Конструктор QR 
-## [Скачать последнюю версию](https://github.com/Zalexanninev15/QR-Maker/releases/download/1.2.1/App.zip)
+## [Скачать последнюю версию](https://github.com/Zalexanninev15/QR-Maker/releases/download/1.3/App.zip) | [ВСЕ ВЕРСИИ](https://github.com/Zalexanninev15/QR-Maker/releases)
+## [Скачать исходники (ZIP)](https://github.com/Zalexanninev15/QR-Maker/archive/master.zip) 
 ## Скриншот
-![alt](https://i.imgur.com/w8zN22o.png)
+![alt](https://i.imgur.com/MJPtUVg.jpg)
 ## Описание
 Приложение для работы с QR кодами под Windows. Используется Material Design, а также имеется поддержка тёмной темы.
 ## Системные требования
