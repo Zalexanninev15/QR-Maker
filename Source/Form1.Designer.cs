@@ -48,7 +48,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::qr_code.Properties.Resources.qrcreator_103328;
-            this.pictureBox1.Location = new System.Drawing.Point(207, 72);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 78);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(144, 125);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -61,7 +61,7 @@
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.Location = new System.Drawing.Point(11, 214);
+            this.materialLabel1.Location = new System.Drawing.Point(162, 73);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             this.materialLabel1.Size = new System.Drawing.Size(106, 19);
@@ -72,13 +72,13 @@
             // 
             this.b_w.Depth = 0;
             this.b_w.Font = new System.Drawing.Font("Roboto", 10F);
-            this.b_w.Location = new System.Drawing.Point(207, 292);
+            this.b_w.Location = new System.Drawing.Point(18, 248);
             this.b_w.Margin = new System.Windows.Forms.Padding(0);
             this.b_w.MouseLocation = new System.Drawing.Point(-1, -1);
             this.b_w.MouseState = MaterialSkin.MouseState.HOVER;
             this.b_w.Name = "b_w";
             this.b_w.Ripple = true;
-            this.b_w.Size = new System.Drawing.Size(144, 27);
+            this.b_w.Size = new System.Drawing.Size(130, 27);
             this.b_w.TabIndex = 14;
             this.b_w.Text = "ТЁМНАЯ ТЕМА";
             this.b_w.UseVisualStyleBackColor = true;
@@ -88,7 +88,7 @@
             // 
             this.materialRaisedButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.materialRaisedButton1.Depth = 0;
-            this.materialRaisedButton1.Location = new System.Drawing.Point(207, 409);
+            this.materialRaisedButton1.Location = new System.Drawing.Point(12, 209);
             this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton1.Name = "materialRaisedButton1";
             this.materialRaisedButton1.Primary = true;
@@ -102,14 +102,14 @@
             // 
             this.textBox1.Depth = 0;
             this.textBox1.Hint = "";
-            this.textBox1.Location = new System.Drawing.Point(131, 213);
+            this.textBox1.Location = new System.Drawing.Point(166, 102);
             this.textBox1.MouseState = MaterialSkin.MouseState.HOVER;
             this.textBox1.Name = "textBox1";
             this.textBox1.PasswordChar = '\0';
             this.textBox1.SelectedText = "";
             this.textBox1.SelectionLength = 0;
             this.textBox1.SelectionStart = 0;
-            this.textBox1.Size = new System.Drawing.Size(284, 23);
+            this.textBox1.Size = new System.Drawing.Size(249, 23);
             this.textBox1.TabIndex = 16;
             this.textBox1.TabStop = false;
             this.textBox1.UseSystemPasswordChar = false;
@@ -118,7 +118,7 @@
             // 
             this.materialRaisedButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.materialRaisedButton2.Depth = 0;
-            this.materialRaisedButton2.Location = new System.Drawing.Point(131, 242);
+            this.materialRaisedButton2.Location = new System.Drawing.Point(166, 131);
             this.materialRaisedButton2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton2.Name = "materialRaisedButton2";
             this.materialRaisedButton2.Primary = true;
@@ -132,11 +132,11 @@
             // 
             this.materialRaisedButton3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.materialRaisedButton3.Depth = 0;
-            this.materialRaisedButton3.Location = new System.Drawing.Point(272, 242);
+            this.materialRaisedButton3.Location = new System.Drawing.Point(307, 131);
             this.materialRaisedButton3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton3.Name = "materialRaisedButton3";
             this.materialRaisedButton3.Primary = true;
-            this.materialRaisedButton3.Size = new System.Drawing.Size(135, 36);
+            this.materialRaisedButton3.Size = new System.Drawing.Size(108, 36);
             this.materialRaisedButton3.TabIndex = 18;
             this.materialRaisedButton3.Text = "сохранить";
             this.materialRaisedButton3.UseVisualStyleBackColor = true;
@@ -146,11 +146,11 @@
             // 
             this.materialRaisedButton4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.materialRaisedButton4.Depth = 0;
-            this.materialRaisedButton4.Location = new System.Drawing.Point(132, 357);
+            this.materialRaisedButton4.Location = new System.Drawing.Point(307, 239);
             this.materialRaisedButton4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton4.Name = "materialRaisedButton4";
             this.materialRaisedButton4.Primary = true;
-            this.materialRaisedButton4.Size = new System.Drawing.Size(134, 36);
+            this.materialRaisedButton4.Size = new System.Drawing.Size(108, 36);
             this.materialRaisedButton4.TabIndex = 19;
             this.materialRaisedButton4.Text = "загрузить";
             this.materialRaisedButton4.UseVisualStyleBackColor = true;
@@ -160,13 +160,13 @@
             // 
             this.materialRaisedButton5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.materialRaisedButton5.Depth = 0;
-            this.materialRaisedButton5.Location = new System.Drawing.Point(272, 357);
+            this.materialRaisedButton5.Location = new System.Drawing.Point(166, 239);
             this.materialRaisedButton5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton5.Name = "materialRaisedButton5";
             this.materialRaisedButton5.Primary = true;
             this.materialRaisedButton5.Size = new System.Drawing.Size(135, 36);
             this.materialRaisedButton5.TabIndex = 20;
-            this.materialRaisedButton5.Text = "РАСШИФРОВАТЬ";
+            this.materialRaisedButton5.Text = "расшифровать";
             this.materialRaisedButton5.UseVisualStyleBackColor = true;
             this.materialRaisedButton5.Click += new System.EventHandler(this.MaterialRaisedButton5_Click);
             // 
@@ -174,14 +174,14 @@
             // 
             this.textBox2.Depth = 0;
             this.textBox2.Hint = "";
-            this.textBox2.Location = new System.Drawing.Point(131, 327);
+            this.textBox2.Location = new System.Drawing.Point(166, 210);
             this.textBox2.MouseState = MaterialSkin.MouseState.HOVER;
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '\0';
             this.textBox2.SelectedText = "";
             this.textBox2.SelectionLength = 0;
             this.textBox2.SelectionStart = 0;
-            this.textBox2.Size = new System.Drawing.Size(284, 23);
+            this.textBox2.Size = new System.Drawing.Size(249, 23);
             this.textBox2.TabIndex = 22;
             this.textBox2.TabStop = false;
             this.textBox2.UseSystemPasswordChar = false;
@@ -192,22 +192,22 @@
             this.materialLabel2.Depth = 0;
             this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel2.Location = new System.Drawing.Point(11, 327);
+            this.materialLabel2.Location = new System.Drawing.Point(162, 179);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(112, 19);
+            this.materialLabel2.Size = new System.Drawing.Size(139, 19);
             this.materialLabel2.TabIndex = 21;
-            this.materialLabel2.Text = "Расшифровка:";
+            this.materialLabel2.Text = "Расшифровка QR: ";
             // 
             // materialRaisedButton6
             // 
             this.materialRaisedButton6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.materialRaisedButton6.Depth = 0;
-            this.materialRaisedButton6.Location = new System.Drawing.Point(421, 322);
+            this.materialRaisedButton6.Location = new System.Drawing.Point(421, 206);
             this.materialRaisedButton6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton6.Name = "materialRaisedButton6";
             this.materialRaisedButton6.Primary = true;
-            this.materialRaisedButton6.Size = new System.Drawing.Size(113, 31);
+            this.materialRaisedButton6.Size = new System.Drawing.Size(113, 27);
             this.materialRaisedButton6.TabIndex = 23;
             this.materialRaisedButton6.Text = "скопировать";
             this.materialRaisedButton6.UseVisualStyleBackColor = true;
@@ -217,11 +217,11 @@
             // 
             this.materialRaisedButton7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.materialRaisedButton7.Depth = 0;
-            this.materialRaisedButton7.Location = new System.Drawing.Point(421, 209);
+            this.materialRaisedButton7.Location = new System.Drawing.Point(421, 98);
             this.materialRaisedButton7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton7.Name = "materialRaisedButton7";
             this.materialRaisedButton7.Primary = true;
-            this.materialRaisedButton7.Size = new System.Drawing.Size(113, 31);
+            this.materialRaisedButton7.Size = new System.Drawing.Size(113, 27);
             this.materialRaisedButton7.TabIndex = 24;
             this.materialRaisedButton7.Text = "вставить";
             this.materialRaisedButton7.UseVisualStyleBackColor = true;
@@ -231,7 +231,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(549, 461);
+            this.ClientSize = new System.Drawing.Size(549, 288);
             this.Controls.Add(this.materialRaisedButton7);
             this.Controls.Add(this.materialRaisedButton6);
             this.Controls.Add(this.textBox2);

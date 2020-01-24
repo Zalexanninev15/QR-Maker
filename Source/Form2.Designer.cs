@@ -40,17 +40,17 @@
             this.materialLabel2.Depth = 0;
             this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel2.Location = new System.Drawing.Point(27, 193);
+            this.materialLabel2.Location = new System.Drawing.Point(27, 188);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
             this.materialLabel2.Size = new System.Drawing.Size(163, 76);
             this.materialLabel2.TabIndex = 17;
-            this.materialLabel2.Text = "Конструктор QR\r\nАвтор: Zalexanninev15\r\nВерсия: 1.2.1\r\nСборка: 15112019";
+            this.materialLabel2.Text = "Конструктор QR\r\nАвтор: Zalexanninev15\r\nВерсия: 1.3\r\nСборка: 24012020";
             // 
             // materialRaisedButton1
             // 
             this.materialRaisedButton1.Depth = 0;
-            this.materialRaisedButton1.Location = new System.Drawing.Point(53, 282);
+            this.materialRaisedButton1.Location = new System.Drawing.Point(53, 273);
             this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton1.Name = "materialRaisedButton1";
             this.materialRaisedButton1.Primary = true;
@@ -74,7 +74,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(217, 329);
+            this.ClientSize = new System.Drawing.Size(217, 322);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.materialRaisedButton1);

@@ -18,16 +18,25 @@ namespace qr_code
     public partial class Form1 : MaterialForm
     {
         Form f;
-        String Out;
+        String Out, theme;
         public Form1()
         {
             InitializeComponent();
             // Дефолтная тема
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
-            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.Green500, Primary.Green700, Primary.Green100, Accent.Green200, TextShade.WHITE);
-            // 1 - под заголовком, 2 - заголовок, 3 - ?, 4 - элементы выбора
+            theme = Properties.Settings.Default.DarkMode;
+            if ((theme == "") || (theme == " ") || (theme == "0"))
+            {
+                materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+                materialSkinManager.ColorScheme = new ColorScheme(Primary.Green500, Primary.Green700, Primary.Green100, Accent.Blue200, TextShade.WHITE);
+            }
+            if (theme == "1")
+            {
+                b_w.Checked = true;
+                materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
+                materialSkinManager.ColorScheme = new ColorScheme(Primary.Green500, Primary.Green700, Primary.Green100, Accent.Yellow200, TextShade.WHITE);
+            }
         }
 
         private void B_w_CheckedChanged(object sender, EventArgs e)
@@ -35,18 +44,20 @@ namespace qr_code
             if (b_w.Checked)
             {
                 //Включение тёмной темы (галочка)
-                b_w.Text = "ТЁМНАЯ ТЕМА";
                 var materialSkinManager = MaterialSkinManager.Instance;
                 materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
-                materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue500, Primary.Blue700, Primary.Blue100, Accent.Yellow200, TextShade.WHITE);
+                materialSkinManager.ColorScheme = new ColorScheme(Primary.Green500, Primary.Green700, Primary.Green100, Accent.Yellow200, TextShade.WHITE);
+                Properties.Settings.Default.DarkMode = "1";
+                Properties.Settings.Default.Save();
             }
             if (!b_w.Checked)
             {
                 //Выключение тёмной темы (галочка) (включение дефолтной темы)
-                b_w.Text = "ТЁМНАЯ ТЕМА";
                 var materialSkinManager = MaterialSkinManager.Instance;
                 materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-                materialSkinManager.ColorScheme = new ColorScheme(Primary.Green500, Primary.Green700, Primary.Green100, Accent.Green200, TextShade.WHITE);
+                materialSkinManager.ColorScheme = new ColorScheme(Primary.Green500, Primary.Green700, Primary.Green100, Accent.Blue200, TextShade.WHITE);
+                Properties.Settings.Default.DarkMode = "0";
+                Properties.Settings.Default.Save();
             }
         }
 
