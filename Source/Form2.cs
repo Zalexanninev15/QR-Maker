@@ -25,7 +25,7 @@ namespace qr_code
 
         private void materialRaisedButton1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/Zalexanninev15/QR-Maker");
+            System.Diagnostics.Process.Start("https://zalexanninev15.github.io/QR-Maker/");
         }
     }
 }

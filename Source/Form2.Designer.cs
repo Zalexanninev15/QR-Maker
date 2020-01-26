@@ -45,7 +45,7 @@
             this.materialLabel2.Name = "materialLabel2";
             this.materialLabel2.Size = new System.Drawing.Size(163, 76);
             this.materialLabel2.TabIndex = 17;
-            this.materialLabel2.Text = "Конструктор QR\r\nАвтор: Zalexanninev15\r\nВерсия: 1.3\r\nСборка: 24012020";
+            this.materialLabel2.Text = "Конструктор QR\r\nАвтор: Zalexanninev15\r\nВерсия: 1.3.0.1\r\nСборка: 26012020";
             // 
             // materialRaisedButton1
             // 
