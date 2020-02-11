@@ -5,6 +5,10 @@
 ![alt](https://i.imgur.com/MJPtUVg.jpg)
 ## Описание
 Приложение для работы с QR кодами под Windows. Используется Material Design, а также имеется поддержка тёмной темы.
+## Особенности:
+* Быстрое создание и расшифровка (не всех) QR кодов
+* Material дизайн
+* Тёмная тема
 ## Системные требования
 * Операционная система: Windows 7/8/8.1/10
 * Дополнительно: [Microsoft .NET Framework 4.5](https://www.microsoft.com/ru-ru/download/details.aspx?id=30653)
