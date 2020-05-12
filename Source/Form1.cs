@@ -1,16 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using MessagingToolkit.QRCode.Codec;
 using MessagingToolkit.QRCode.Codec.Data;
 using MaterialSkin;
-using MaterialSkin.Animations;
 using MaterialSkin.Controls;
 
 namespace qr_code
@@ -69,37 +62,38 @@ namespace qr_code
 
         private void MaterialRaisedButton2_Click(object sender, EventArgs e)
         {
-            string qrtext = textBox1.Text; //считываем текст из TextBox'a
-            QRCodeEncoder encoder = new QRCodeEncoder(); //создаём новую "генерацию кода"
-            Bitmap qrcode = encoder.Encode(qrtext); // кодируем слово, полученное из TextBox'a (qrtext) в переменную qrcode. класса Bitmap(класс, который используется для работы с изображениями)
-            pictureBox1.Image = qrcode as Image; // pictureBox выводит qrcode как изображение.
+            string qrtext = textBox1.Text; 
+            QRCodeEncoder encoder = new QRCodeEncoder();
+            Bitmap qrcode = encoder.Encode(qrtext); 
+            pictureBox1.Image = qrcode as Image; 
         }
 
         private void MaterialRaisedButton3_Click(object sender, EventArgs e)
         {
-            SaveFileDialog save = new SaveFileDialog(); // save будет запрашивать у пользователя место, в которое он захочет сохранить файл. 
-            save.Filter = "PNG|*.png|JPEG|*.jpg|GIF|*.gif|BMP|*.bmp"; //создаём фильтр, который определяет, в каких форматах мы сможем сохранить нашу информацию. В данном случае выбираем форматы изображений. Записывается так: "название_формата_в обозревателе|*.расширение_формата")
-            if (save.ShowDialog() == System.Windows.Forms.DialogResult.OK) //если пользователь нажимает в обозревателе кнопку "Сохранить".
+            SaveFileDialog save = new SaveFileDialog(); 
+            save.FileName = "";
+            save.Filter = "PNG|*.png|JPEG|*.jpg|GIF|*.gif|BMP|*.bmp";
+            if (save.ShowDialog() == DialogResult.OK) 
             {
-                pictureBox1.Image.Save(save.FileName); //изображение из pictureBox'a сохраняется под именем, которое введёт пользователь
+                pictureBox1.Image.Save(save.FileName); 
             }
         }
 
         private void MaterialRaisedButton4_Click(object sender, EventArgs e)
         {
-            OpenFileDialog load = new OpenFileDialog(); //  load будет запрашивать у пользователя место, из которого он хочет загрузить файл.
+            OpenFileDialog load = new OpenFileDialog(); 
+            load.FileName = "";
             load.Filter = "PNG|*.png|JPEG|*.jpg|GIF|*.gif|BMP|*.bmp";
-            if (load.ShowDialog() == System.Windows.Forms.DialogResult.OK) // //если пользователь нажимает в обозревателе кнопку "Открыть".
+            if (load.ShowDialog() == DialogResult.OK) 
             {
-                pictureBox1.ImageLocation = load.FileName; // в pictureBox'e открывается файл, который был по пути, запрошенном пользователем.
+                pictureBox1.ImageLocation = load.FileName; 
             }
         }
 
         private void MaterialRaisedButton5_Click(object sender, EventArgs e)
         {
-            QRCodeDecoder decoder = new QRCodeDecoder(); // создаём "раскодирование изображения"
-            Out = decoder.Decode(new QRCodeBitmapImage(pictureBox1.Image as Bitmap)); //в MessageBox'e программа запишет раскодированное сообщение с изображения, которое предоврительно будет переведено из pictureBox'a в класс Bitmap, чтобы мы смогли с этим изображением работать.         
-                                                                                      //MessageBox.Show(decoder.Decode(new QRCodeBitmapImage(pictureBox1.Image as Bitmap))); ; //в MessageBox'e программа запишет раскодированное сообщение с изображения, которое предоврительно будет переведено из pictureBox'a в класс Bitmap, чтобы мы смогли с этим изображением работать. 
+            QRCodeDecoder decoder = new QRCodeDecoder();
+            Out = decoder.Decode(new QRCodeBitmapImage(pictureBox1.Image as Bitmap));                                                            
             textBox2.Text = Out;
         }
 
