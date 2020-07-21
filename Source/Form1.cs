@@ -96,6 +96,7 @@ namespace qr_code
 
         Form f;
         String Out, theme;
+        int form2 = 0;
         public Form1()
         {
             InitializeComponent();
