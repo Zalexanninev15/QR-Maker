@@ -2,6 +2,11 @@
 ## [Скачать последнюю версию](https://github.com/Zalexanninev15/QR-Maker/releases/tag/1.3.0.2) | [ВСЕ ВЕРСИИ](https://github.com/Zalexanninev15/QR-Maker/releases)
 ## [Скачать исходники (ZIP)](https://github.com/Zalexanninev15/QR-Maker/archive/master.zip) 
 
+[![](https://img.shields.io/badge/platform-windows-blue.svg)](https://github.com/Zalexanninev15/QR-Maker)
+[![](https://img.shields.io/github/v/release/Zalexanninev15/QR-Maker)](https://github.com/Zalexanninev15/QR-Maker/releases/latest)
+[![](https://img.shields.io/github/downloads/Zalexanninev15/QR-Maker/total.svg)](https://github.com/Zalexanninev15/QR-Maker/releases)
+[![](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 ## Скриншот
 ![alt](https://i.imgur.com/MJPtUVg.jpg)
 
