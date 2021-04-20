@@ -1,5 +1,7 @@
 # Конструктор QR | [Последняя версия](https://github.com/Zalexanninev15/QR-Maker/releases/tag/1.3.0.2)
 
+![](https://github.com/Zalexanninev15/QR-Maker/blob/master/Logo.png?raw=true)
+
 [![](https://img.shields.io/badge/platform-Windows-blue.svg)](https://github.com/Zalexanninev15/QR-Maker)
 [![](https://img.shields.io/github/v/release/Zalexanninev15/QR-Maker)](https://github.com/Zalexanninev15/QR-Maker/releases/latest)
 [![](https://img.shields.io/github/downloads/Zalexanninev15/QR-Maker/total.svg)](https://github.com/Zalexanninev15/QR-Maker/releases)
