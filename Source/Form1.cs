@@ -90,10 +90,6 @@ namespace qr_code
             base.WndProc(ref m);
         }
 
-        // =======================================================================================================================
-        // =======================================================================================================================
-        // =======================================================================================================================
-
         Form f;
         String Out, theme;
         int form2 = 0;
@@ -141,19 +137,12 @@ namespace qr_code
 
         private void MaterialRaisedButton1_Click(object sender, EventArgs e)
         {
-        foreach (Form f in Application.OpenForms)
+            foreach (Form f in Application.OpenForms)
             {
-                if (f.Name == "Form2")
-                {
-                    form2 = 1;
-                }
+                if (f.Name == "Form2") { form2 = 1; }
                 else { form2 = 0; }
             }
-            if (form2 == 0)
-            {
-                f = new Form2();
-                f.Show();
-            }
+            if (form2 == 0) { f = new Form2(); f.Show(); }
         }
 
         private void MaterialRaisedButton2_Click(object sender, EventArgs e)
@@ -169,10 +158,7 @@ namespace qr_code
             SaveFileDialog save = new SaveFileDialog(); 
             save.FileName = "";
             save.Filter = "PNG|*.png|JPEG|*.jpg|GIF|*.gif|BMP|*.bmp";
-            if (save.ShowDialog() == DialogResult.OK) 
-            {
-                pictureBox1.Image.Save(save.FileName); 
-            }
+            if (save.ShowDialog() == DialogResult.OK) { pictureBox1.Image.Save(save.FileName);  }
         }
 
         private void MaterialRaisedButton4_Click(object sender, EventArgs e)
@@ -180,10 +166,7 @@ namespace qr_code
             OpenFileDialog load = new OpenFileDialog(); 
             load.FileName = "";
             load.Filter = "PNG|*.png|JPEG|*.jpg|GIF|*.gif|BMP|*.bmp";
-            if (load.ShowDialog() == DialogResult.OK) 
-            {
-                pictureBox1.ImageLocation = load.FileName; 
-            }
+            if (load.ShowDialog() == DialogResult.OK) { pictureBox1.ImageLocation = load.FileName; }
         }
 
         private void MaterialRaisedButton5_Click(object sender, EventArgs e)
@@ -199,9 +182,6 @@ namespace qr_code
             Clipboard.SetText(textBox2.Text);
         }
 
-        private void materialRaisedButton7_Click(object sender, EventArgs e)
-        {
-            textBox1.Text = Clipboard.GetText();
-        }
+        private void materialRaisedButton7_Click(object sender, EventArgs e) { textBox1.Text = Clipboard.GetText(); }
     }
 }
