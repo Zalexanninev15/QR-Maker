@@ -10,8 +10,7 @@
 [![](https://img.shields.io/badge/donate-YooMoney-8B3FFD.svg)](https://yoomoney.ru/to/410015106319420)
 
 ## Скриншот
-![alt](https://i.imgur.com/MJPtUVg.jpg)
-
+![](https://github.com/Zalexanninev15/QR-Maker/blob/master/screenshot.png?raw=true)
 ## Описание
 Приложение для работы с QR кодами под Windows. Используется Material Design, а также имеется поддержка тёмной темы.
 
