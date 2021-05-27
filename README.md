@@ -1,4 +1,4 @@
-# Конструктор QR | [Последняя версия](https://github.com/Zalexanninev15/QR-Maker/releases/tag/1.3.0.2)
+# Конструктор QR | [Последняя версия](https://github.com/Zalexanninev15/QR-Maker/releases/latest)
 
 ![](https://github.com/Zalexanninev15/QR-Maker/blob/master/Logo.png?raw=true)
 
