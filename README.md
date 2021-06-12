@@ -10,11 +10,15 @@
 [![](https://img.shields.io/badge/donate-YooMoney-8B3FFD.svg)](https://yoomoney.ru/to/410015106319420)
 
 ## Скриншот
+
 ![](https://github.com/Zalexanninev15/QR-Maker/blob/master/screenshot.png?raw=true)
+
 ## Описание
+
 Приложение для работы с QR кодами под Windows. Используется Material Design, а также имеется поддержка тёмной темы
 
 ## Особенности
+
 * Приложение портативное и не требует установки
 * Быстрое создание и расшифровка (не всех) QR кодов
 * Сохранение сгенерированного QR кода в файл
@@ -24,10 +28,16 @@
 * Приложение умеет запоминать текущую тему
 
 ## Системные требования
+
 * **Операционная система:** Windows 7/8/8.1/10
 * **Дополнительно:** .NET Framework 4.5
 
 ## Используемые библиотеки 
+
 * [MaterialSkin](https://github.com/IgnaceMaes/MaterialSkin) ([MIT License](https://github.com/IgnaceMaes/MaterialSkin/blob/master/LICENSE))
 * [MessagingToolkit.QRCode](https://www.nuget.org/packages/MessagingToolkit.QRCode/) ([GPL-3.0 License](http://www.gnu.org/licenses/gpl-3.0.html))
 * [QRCoder](https://github.com/codebude/QRCoder) ([MIT License](https://github.com/codebude/QRCoder/blob/master/LICENSE.txt))
+
+## Сборка
+ 
+Компилируем используя [SharpDevelop](https://sourceforge.net/projects/sharpdevelop) или [Visual Studio](https://visualstudio.microsoft.com/vs)
