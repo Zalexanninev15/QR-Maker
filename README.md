@@ -5,6 +5,7 @@
 [![](https://img.shields.io/badge/OS-Windows-informational?logo=windows)](https://github.com/Zalexanninev15/QR-Maker)
 [![](https://img.shields.io/github/v/release/Zalexanninev15/QR-Maker)](https://github.com/Zalexanninev15/QR-Maker/releases/latest)
 [![](https://img.shields.io/github/downloads/Zalexanninev15/QR-Maker/total.svg)](https://github.com/Zalexanninev15/QR-Maker/releases)
+[![](https://img.shields.io/github/last-commit/Zalexanninev15/QR-Maker)](https://github.com/Zalexanninev15/QR-Maker/commits/master)
 [![](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![](https://img.shields.io/badge/donate-QIWI-FF8C00.svg)](https://qiwi.com/n/ZALEXANNINEV15)
 [![](https://img.shields.io/badge/donate-YooMoney-8B3FFD.svg)](https://yoomoney.ru/to/410015106319420)
